@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 
+gem 'capistrano'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -24,7 +26,7 @@ end
 
 gem 'jquery-rails'
 
-group :production do
+group    :production do
 	gem 'pg', '0.12.2'
 end
 
